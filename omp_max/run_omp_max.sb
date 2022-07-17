@@ -1,0 +1,25 @@
+#!/bin/bash --login
+
+#SBATCH --time=00:20:00
+#SBATCH --mem=100G
+#SBATCH -N 1
+#SBATCH -c 20
+
+g++ -std=c++11 -fopenmp -isystem $HOME/eigen -I $HOME/qpp/include grover_omp_max.cpp -o grover
+
+#mkdir sbatch_times
+
+echo "" > sbatch_time_omp_max.txt
+for n in {1..10};
+do
+    echo $n
+    { time srun ./grover;} 2>> sbatch_time_omp_max.txt
+done
+
+echo ""
+echo "" >> sbatch_time_omp_max.txt
+avtime=`cat sbatch_time_omp_max.txt | grep real | cut -d "m" -f 2 | cut -d "s" -f1 | jq -s add/length`
+echo ""
+echo "The average time after $n runs is $avtime"
+echo "" >> sbatch_time_omp_max.txt
+echo "The average time after $n runs is $avtime" >> sbatch_time_omp_max.txt

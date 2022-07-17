@@ -1,0 +1,93 @@
+1
+>> Grover on n = 13 qubits
+>> Database size: 8192
+>> Marked state: 6522 -> [1 1 0 0 1 0 1 1 1 1 0 1 0]
+>> We run 72 queries
+>> Probability of the marked state: 0.000121988
+>> Let's sample...
+>> Not there yet... we obtained: 919 -> [0 0 0 1 1 1 0 0 1 0 1 1 1]
+>> Run time: 12.6048 seconds
+2
+>> Grover on n = 13 qubits
+>> Database size: 8192
+>> Marked state: 1328 -> [0 0 1 0 1 0 0 1 1 0 0 0 0]
+>> We run 72 queries
+>> Probability of the marked state: 0.00011979
+>> Let's sample...
+>> Not there yet... we obtained: 3731 -> [0 1 1 1 0 1 0 0 1 0 0 1 1]
+>> Run time: 12.8206 seconds
+3
+>> Grover on n = 13 qubits
+>> Database size: 8192
+>> Marked state: 7509 -> [1 1 1 0 1 0 1 0 1 0 1 0 1]
+>> We run 72 queries
+>> Probability of the marked state: 0.000118557
+>> Let's sample...
+>> Not there yet... we obtained: 3119 -> [0 1 1 0 0 0 0 1 0 1 1 1 1]
+>> Run time: 12.2336 seconds
+4
+>> Grover on n = 13 qubits
+>> Database size: 8192
+>> Marked state: 11 -> [0 0 0 0 0 0 0 0 0 1 0 1 1]
+>> We run 72 queries
+>> Probability of the marked state: 0.000120118
+>> Let's sample...
+>> Not there yet... we obtained: 6091 -> [1 0 1 1 1 1 1 0 0 1 0 1 1]
+>> Run time: 12.3284 seconds
+5
+>> Grover on n = 13 qubits
+>> Database size: 8192
+>> Marked state: 7503 -> [1 1 1 0 1 0 1 0 0 1 1 1 1]
+>> We run 72 queries
+>> Probability of the marked state: 0.000123348
+>> Let's sample...
+>> Not there yet... we obtained: 6635 -> [1 1 0 0 1 1 1 1 0 1 0 1 1]
+>> Run time: 12.742 seconds
+6
+>> Grover on n = 13 qubits
+>> Database size: 8192
+>> Marked state: 2942 -> [0 1 0 1 1 0 1 1 1 1 1 1 0]
+>> We run 72 queries
+>> Probability of the marked state: 0.000122443
+>> Let's sample...
+>> Not there yet... we obtained: 2496 -> [0 1 0 0 1 1 1 0 0 0 0 0 0]
+>> Run time: 13.1088 seconds
+7
+>> Grover on n = 13 qubits
+>> Database size: 8192
+>> Marked state: 405 -> [0 0 0 0 1 1 0 0 1 0 1 0 1]
+>> We run 72 queries
+>> Probability of the marked state: 0.000120651
+>> Let's sample...
+>> Not there yet... we obtained: 3108 -> [0 1 1 0 0 0 0 1 0 0 1 0 0]
+>> Run time: 12.212 seconds
+8
+>> Grover on n = 13 qubits
+>> Database size: 8192
+>> Marked state: 3938 -> [0 1 1 1 1 0 1 1 0 0 0 1 0]
+>> We run 72 queries
+>> Probability of the marked state: 0.000121686
+>> Let's sample...
+>> Not there yet... we obtained: 1743 -> [0 0 1 1 0 1 1 0 0 1 1 1 1]
+>> Run time: 12.7513 seconds
+9
+>> Grover on n = 13 qubits
+>> Database size: 8192
+>> Marked state: 5602 -> [1 0 1 0 1 1 1 1 0 0 0 1 0]
+>> We run 72 queries
+>> Probability of the marked state: 0.000122006
+>> Let's sample...
+>> Not there yet... we obtained: 422 -> [0 0 0 0 1 1 0 1 0 0 1 1 0]
+>> Run time: 13.0432 seconds
+10
+>> Grover on n = 12 qubits
+>> Database size: 4096
+>> Marked state: 3423 -> [1 1 0 1 0 1 0 1 1 1 1 1]
+>> We run 51 queries
+>> Probability of the marked state: 0.000243343
+>> Let's sample...
+>> Not there yet... we obtained: 575 -> [0 0 1 0 0 0 1 1 1 1 1 1]
+>> Run time: 2.36329 seconds
+
+
+The average time after 10 runs is 24.44333333333333
